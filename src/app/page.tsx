@@ -16,7 +16,7 @@ import IconButton from "@mui/material/IconButton";
 
 import StarOutlineIcon from "@mui/icons-material/StarOutline";
 import StarIcon from "@mui/icons-material/Star";
-import Header from "./components/header";
+import { Header } from "./components/header";
 import { fetchAPI } from "../../service/api";
 import { Triangle } from "react-loader-spinner";
 import { useLocalStorageArray } from "../../service/hooks";
